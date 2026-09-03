@@ -10,8 +10,6 @@
 |---|---|
 | Mohammad Naofel Khan | 23141006 |
 
-> Fill in the cover fields (section, semester, member names and IDs) before submission.
-
 ---
 
 ## Summary
