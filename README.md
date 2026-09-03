@@ -15,16 +15,16 @@ See `data/README.md` for source link, size, and how to obtain it.
 back-transformed for reporting.
 
 ## Techniques Used (mapped to CSE437 syllabus)
-| Stage | Technique | Syllabus week |
+| Stage | Technique
 |---|---|---|
-| Preprocessing | Missing values, outliers, scaling | Week 2 |
-| Statistical analysis | Descriptive stats + inferential test (ANOVA/t-test across boroughs) | Week 10 |
-| Feature engineering | PCA (dimensionality reduction), RFE (feature selection) | Week 4 |
-| Unsupervised piece | K-Means geo-clustering feature | Week 9 |
-| Modeling — family 1 | Linear/Ridge Regression | Week 5 |
-| Modeling — family 2 | Decision Tree/CART or AdaBoost | Week 6 / Week 8 |
-| Validation | Random split vs. spatially-grouped split (GroupKFold by neighbourhood) | — |
-| Hyperparameter tuning | Grid search (tree depth / AdaBoost n_estimators, learning_rate) | — |
+| Preprocessing | Missing values, outliers, scaling
+| Statistical analysis | Descriptive stats + inferential test (ANOVA/t-test across boroughs)
+| Feature engineering | PCA (dimensionality reduction), RFE (feature selection)
+| Unsupervised piece | K-Means geo-clustering feature
+| Modeling — family 1 | Linear/Ridge Regression
+| Modeling — family 2 | Decision Tree/CART or AdaBoost
+| Validation | Random split vs. spatially-grouped split (GroupKFold by neighbourhood)
+| Hyperparameter tuning | Grid search (tree depth / AdaBoost n_estimators, learning_rate)
 
 ## Notebooks (run in order)
 1. `01_data_audit_and_eda.ipynb` — load, audit missingness/outliers, descriptive + inferential stats
@@ -39,7 +39,3 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
-## Faculty Feedback Notes
-> Record the exact column-to-exclude / split instruction from your proposal feedback here
-> before starting Notebook 02, so it isn't lost.
